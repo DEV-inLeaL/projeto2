@@ -31,11 +31,22 @@ th{
     
 }
 
-td{
+tr td{
     border-bottom: 1px black solid;
-    
+    padding: 12px;
+
 }
 
+table{
+
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+    
+}
 form{
     justify-content: center;
     align-items: center;
@@ -46,10 +57,3 @@ form{
     margin-bottom: 20px;
 }
 
-
-table{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
