@@ -8,9 +8,9 @@ display: flexbox;
 
 .container{
     margin-top: 200px;
-    max-width: 1000px;
-    width: 80%;
-    margin-left: 500px;
+    max-width: 100%;
+    width: 50%;
+    margin-left: 400px;
     height: 400px;
     justify-content: center;
     align-items: center;
@@ -25,8 +25,15 @@ header h1 {
     margin-bottom: 10px;
 }
 
+th{
+    border: 2px black solid;
+    border-radius: 10px;
+    
+}
+
 td{
-    border: 1px red solid;
+    border-bottom: 1px black solid;
+    
 }
 
 form{
@@ -36,7 +43,7 @@ form{
     justify-items: center;
     align-self: center;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 
